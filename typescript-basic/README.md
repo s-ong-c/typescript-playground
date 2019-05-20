@@ -7,8 +7,19 @@
     * 그래서 Transpile 용어를 사용
 * 자바스크립트는 Interpreted Language 
 
+# 2. 설치 및 실행
+npm i -g typescript 
 
-## Compiler Options
+```js
+$ ./node_modules/.bin/tsc test.js
+
+"scripts": {
+"transpile": "tsc test.ts",
+"test": "echo \"Error: no test specified\" && exit 1"
+},
+$ npm run transpile
+```
+## 3.Compiler Options
         
 *  compileOnSave
     * true / false (default false)
