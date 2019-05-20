@@ -1,4 +1,14 @@
-#  Compiler Options
+# 1. Typescript 란? 
+
+    
+*    프로그래밍 언어다.
+*    타입스크립트는 ‘Compiled Language' 
+    *  전통적인 compiled language 차이가 있다.  
+    * 그래서 Transpile 용어를 사용
+* 자바스크립트는 Interpreted Language 
+
+
+## Compiler Options
         
 *  compileOnSave
     * true / false (default false)
